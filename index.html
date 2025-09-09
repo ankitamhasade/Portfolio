@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ankita Mhasade — Portfolio</title>
+
+  <!-- Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+
+  <!-- AOS (animate on scroll) -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="Style.css">
+
+  <!-- Typed.js -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <!-- ScrollReveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!-- A small favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📄</text></svg>">
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav-wrap">
+    <div class="container nav">
+      <a class="brand" href="#hero">Ankita<span>.</span></a>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certs</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav-toggle" aria-label="toggle menu" id="navToggle"><i class="fa fa-bars"></i></button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="hero" class="hero">
+    <div class="container hero-inner">
+      <div class="hero-left" data-aos="fade-right">
+        <h1>Hi — I’m <span class="name">Ankita Mhasade</span></h1>
+        <h2><span id="typed"></span></h2>
+        <p class="lead">Driven software enthusiast with strong fundamentals in C, C++, OOP and web technologies. Seeking internship opportunities to build real-world applications and sharpen my engineering skills.</p>
+
+        <div class="cta-row">
+          <a class="btn primary" href="#projects">See Projects</a>
+          <a class="btn ghost" href="mailto:ankitamhasade@gmail.com">Email Me</a>
+        </div>
+
+        <div class="social">
+          <a href="https://github.com/ankitamhasade" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+          <!-- LinkedIn placeholder — update if you have one -->
+          <a href="https://www.linkedin.com/in/ankita-mhasade-bbb2b62a0/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="https://www.hackerrank.com/profile/ankitamhasade" target="_blank" title="HackerRank"><i class="fab fa-hackerrank"></i></a>
+          <a href="mailto:ankitamhasade@gmail.com" title="Email"><i class="fa fa-envelope"></i></a>
+          <a href="tel:+917385297043" title="Phone"><i class="fa fa-phone"></i></a>
+        </div>
+      </div>
+
+      <div class="hero-right" data-aos="fade-left">
+        <div class="card-profile">
+          <div class="profile-top">
+            <div class="avatar">AM</div>
+            <div class="meta">
+              <h3 class="meta-name">Ankita Mhasade</h3>
+              <p class="meta-sub">Computer Engineering Student • Pune, India</p>
+            </div>
+          </div>
+
+          <div class="profile-stats">
+            <div>
+              <h4>9.29</h4>
+              <p>SGPA</p>
+            </div>
+            <div>
+              <h4>45d</h4>
+              <p>Data Analytics Intern</p>
+            </div>
+            <div>
+              <h4>2+</h4>
+              <p>Projects</p>
+            </div>
+          </div>
+
+          <div class="profile-links">
+            <a href="https://github.com/ankitamhasade" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            <a href="https://www.hackerrank.com/profile/ankitamhasade" target="_blank"><i class="fab fa-hackerrank"></i> Hackerrank</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container" data-aos="fade-up">
+      <h3 class="section-title">About</h3>
+      <div class="about-grid">
+        <div class="about-card">
+          <h4>Professional Summary</h4>
+          <p>Driven and passionate software enthusiast with strong fundamentals in C, C++, OOP, and web technologies. Looking for an internship to apply my skills in analysis, design, prototyping, and development while contributing to impactful projects in a dynamic environment. Quick to learn and adapt.</p>
+        </div>
+        <div class="about-card">
+          <h4>Education</h4>
+          <ul class="timeline">
+            <li><strong>PDEA's College of Engineering, Manjari (SPPU)</strong> — B.E. Computer Engineering (2023–Present) • SGPA: 9.29/10</li>
+            <li><strong>Government Polytechnic Awasari (KH)</strong> — Post Diploma in Computer Engineering (2020–2023) • 84.24%</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section alt">
+    <div class="container" data-aos="fade-up">
+      <h3 class="section-title">Skills</h3>
+      <div class="skills-grid">
+        <div class="skill">
+          <h5>C / C++</h5>
+          <div class="bar"><div class="fill" style="--w:92%"></div></div>
+        </div>
+        <div class="skill">
+          <h5>Java (DSA)</h5>
+          <div class="bar"><div class="fill" style="--w:82%"></div></div>
+        </div>
+        <div class="skill">
+          <h5>Python</h5>
+          <div class="bar"><div class="fill" style="--w:78%"></div></div>
+        </div>
+        <div class="skill">
+          <h5>HTML / CSS / JS</h5>
+          <div class="bar"><div class="fill" style="--w:86%"></div></div>
+        </div>
+        <div class="skill">
+          <h5>SQL / MySQL / PHP</h5>
+          <div class="bar"><div class="fill" style="--w:75%"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section">
+    <div class="container" data-aos="fade-up">
+      <h3 class="section-title">Experience & Training</h3>
+
+      <div class="timeline-outer">
+        <div class="timeline-item left">
+          <div class="time">Jan 2025 – Mar 2025</div>
+          <div class="content">
+            <h4>Software Development Intern — NexGen Analytix</h4>
+            <p>Completed 45-days Data Analytics Internship; learned fundamentals of Python and applied it to real-world data science problems. Collaborated on data science projects to improve technical and teamwork skills.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item right">
+          <div class="time">Jun 2024 – Jul 2024</div>
+          <div class="content">
+            <h4>Java Training — Mindlabz Software Solutions</h4>
+            <p>Developed backend logic and managed databases using Java and SQL; gained hands-on OOP and problem-solving experience.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section alt">
+    <div class="container" data-aos="fade-up">
+      <h3 class="section-title">Projects</h3>
+
+      <div class="projects-grid">
+        <article class="project-card" data-tags="web,automation">
+          <div class="p-thumb">
+            <div class="p-badge">JSP • MySQL • Razorpay</div>
+          </div>
+          <div class="p-body">
+            <h4>Quick PMPML</h4>
+            <p>JSP-based dynamic web app with Razorpay integration for cashless transactions and MySQL backend. Ensured robust functionality through thorough testing.</p>
+            <div class="p-links">
+              <a class="btn-sm" href="#" target="_blank">Demo</a>
+              <a class="btn-sm ghost" href="#" target="_blank">Code</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card" data-tags="automation,prod">
+          <div class="p-thumb">
+            <div class="p-badge">JS • Automation</div>
+          </div>
+          <div class="p-body">
+            <h4>Document Generator</h4>
+            <p>Automated generation of college-level documents for clerks — fills templates from inputs to quickly produce consistent official documents.</p>
+            <div class="p-links">
+              <a class="btn-sm" href="#" target="_blank">Demo</a>
+              <a class="btn-sm ghost" href="#" target="_blank">Code</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS / ACTIVITIES -->
+  <section id="certifications" class="section">
+    <div class="container" data-aos="fade-up">
+      <h3 class="section-title">Certifications & Activities</h3>
+      <div class="cert-grid">
+        <div class="cert-card">
+          <h5>Data Analytics Job Simulation — Deloitte (Forage)</h5>
+          <p>Virtual internship certificate demonstrating applied analytics skills.</p>
+        </div>
+        <div class="cert-card">
+          <h5>Python & Web Development Courses — Udemy</h5>
+          <p>Completed courses on Python for app development and web development fundamentals.</p>
+        </div>
+        <div class="cert-card">
+          <h5>NSS Member</h5>
+          <p>Participated in Shivjayanti event; gained crowd management and leadership experience.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section alt">
+    <div class="container" data-aos="fade-up">
+      <h3 class="section-title">Contact</h3>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h4>Get in touch</h4>
+          <p><i class="fa fa-envelope"></i> <a href="mailto:ankitamhasade@gmail.com">ankitamhasade@gmail.com</a></p>
+          <p><i class="fa fa-phone"></i> <a href="tel:+917385297043">+91-7385297043</a></p>
+          <p><i class="fa fa-map-marker-alt"></i> Pune, India</p>
+          <div class="social-row">
+            <a href="https://github.com/ankitamhasade" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.hackerrank.com/profile/ankitamhasade" target="_blank"><i class="fab fa-hackerrank"></i></a>
+          </div>
+        </div>
+
+        <form class="contact-form" action="#" onsubmit="return contactFallback(this);">
+          <label>
+            <span>Name</span>
+            <input type="text" name="name" placeholder="Your name" required>
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" placeholder="you@example.com" required>
+          </label>
+          <label>
+            <span>Message</span>
+            <textarea name="message" rows="5" placeholder="Say hi — tell me about the project"></textarea>
+          </label>
+          <div style="display:flex;gap:.5rem;align-items:center;">
+            <button class="btn primary" type="submit">Send</button>
+            <small class="hint">Form fallback: opens mail app</small>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Ankita Mhasade • Built with ❤️</p>
+    </div>
+  </footer>
+
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+  <!-- Main JS -->
+  <script src="script.js"></script>
+</body>
+</html>
